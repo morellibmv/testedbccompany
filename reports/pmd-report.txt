@@ -1,0 +1,415 @@
+src/main/java/io/brunovargas/Main.java:9:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/io/brunovargas/Main.java:9:	Avoid short class names like Main
+src/main/java/io/brunovargas/Main.java:9:	headerCommentRequirement Required
+src/main/java/io/brunovargas/Main.java:11:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/Main.java:13:	Found 'UR'-anomaly for variable 'track' (lines '13'-'19').
+src/main/java/io/brunovargas/Main.java:13:	Parameter 'args' is not assigned and could be declared final
+src/main/java/io/brunovargas/Main.java:13:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/Main.java:15:	Local variable 'filePath' could be declared final
+src/main/java/io/brunovargas/Main.java:16:	Local variable 'tracks' could be declared final
+src/main/java/io/brunovargas/Main.java:16:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/Main.java:18:	Local variable 'track' could be declared final
+src/main/java/io/brunovargas/Main.java:19:	System.out.println is used
+src/main/java/io/brunovargas/conference/ConferenceTrackGenerator.java:4:	Avoid unused imports such as 'java.nio.file.Paths'
+src/main/java/io/brunovargas/conference/ConferenceTrackGenerator.java:13:	headerCommentRequirement Required
+src/main/java/io/brunovargas/conference/ConferenceTrackGenerator.java:15:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/conference/ConferenceTrackGenerator.java:20:	Use block level rather than method level synchronization
+src/main/java/io/brunovargas/conference/ConferenceTrackGenerator.java:20:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/conference/ConferenceTrackGenerator.java:28:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/conference/ConferenceTrackGenerator.java:33:	Found 'DU'-anomaly for variable 'trackId' (lines '33'-'42').
+src/main/java/io/brunovargas/conference/ConferenceTrackGenerator.java:35:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/io/brunovargas/conference/ConferenceTrackGenerator.java:36:	Local variable 'track' could be declared final
+src/main/java/io/brunovargas/conference/ConferenceTrackGenerator.java:36:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/io/brunovargas/conference/ConferenceTrackGenerator.java:37:	Found 'DU'-anomaly for variable 'trackId' (lines '37'-'42').
+src/main/java/io/brunovargas/config/Config.java:6:	Each class should declare at least one constructor
+src/main/java/io/brunovargas/config/Config.java:6:	headerCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:8:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:9:	Avoid excessively long variable names like LIGHTINING_DURATION
+src/main/java/io/brunovargas/config/Config.java:9:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:11:	Avoid excessively long variable names like DURATION_LABEL_FORMAT
+src/main/java/io/brunovargas/config/Config.java:11:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:12:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:13:	Avoid excessively long variable names like FIXED_SESSION_LABEL_FORMAT
+src/main/java/io/brunovargas/config/Config.java:13:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:14:	Avoid excessively long variable names like TRACK_LABEL_FORMAT
+src/main/java/io/brunovargas/config/Config.java:14:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:16:	Avoid excessively long variable names like MORNING_MINIMAL_DURATION
+src/main/java/io/brunovargas/config/Config.java:16:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:17:	Avoid excessively long variable names like MORNING_MAXIMUM_DURATION
+src/main/java/io/brunovargas/config/Config.java:17:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:18:	Avoid excessively long variable names like MORNING_SESSION_NAME
+src/main/java/io/brunovargas/config/Config.java:18:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:19:	Avoid excessively long variable names like MORNING_SESSION_START
+src/main/java/io/brunovargas/config/Config.java:19:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:21:	Avoid excessively long variable names like LUNCH_MINIMAL_DURATION
+src/main/java/io/brunovargas/config/Config.java:21:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:22:	Avoid excessively long variable names like LUNCH_MAXIMUM_DURATION
+src/main/java/io/brunovargas/config/Config.java:22:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:23:	Avoid excessively long variable names like LUNCH_SESSION_NAME
+src/main/java/io/brunovargas/config/Config.java:23:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:24:	Avoid excessively long variable names like LUNCH_SESSION_START
+src/main/java/io/brunovargas/config/Config.java:24:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:26:	Avoid excessively long variable names like AFTERNOON_MINIMAL_DURATION
+src/main/java/io/brunovargas/config/Config.java:26:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:27:	Avoid excessively long variable names like AFTERNOON_MAXIMUM_DURATION
+src/main/java/io/brunovargas/config/Config.java:27:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:28:	Avoid excessively long variable names like AFTERNOON_SESSION_NAME
+src/main/java/io/brunovargas/config/Config.java:28:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:29:	Avoid excessively long variable names like AFTERNOON_SESSION_START
+src/main/java/io/brunovargas/config/Config.java:29:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:31:	Avoid excessively long variable names like NETWORKING_MINIMAL_DURATION
+src/main/java/io/brunovargas/config/Config.java:31:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:32:	Avoid excessively long variable names like NETWORKING_MAXIMUM_DURATION
+src/main/java/io/brunovargas/config/Config.java:32:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:33:	Avoid excessively long variable names like NETWORKING_SESSION_NAME
+src/main/java/io/brunovargas/config/Config.java:33:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:34:	Avoid excessively long variable names like NETWORKING_SESSION_START
+src/main/java/io/brunovargas/config/Config.java:34:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:36:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:37:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:38:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:39:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/config/Config.java:41:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/enumeration/EventEnum.java:7:	enumCommentRequirement Required
+src/main/java/io/brunovargas/enumeration/EventEnum.java:12:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/enumeration/EventEnum.java:13:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/enumeration/EventEnum.java:20:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/enumeration/EventEnum.java:24:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/enumeration/EventEnum.java:28:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/enumeration/EventEnum.java:32:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/enumeration/SessionEnum.java:7:	enumCommentRequirement Required
+src/main/java/io/brunovargas/enumeration/SessionEnum.java:13:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/enumeration/SessionEnum.java:14:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/enumeration/SessionEnum.java:15:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/enumeration/SessionEnum.java:16:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/enumeration/SessionEnum.java:26:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/enumeration/SessionEnum.java:30:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/enumeration/SessionEnum.java:34:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/enumeration/SessionEnum.java:38:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/factory/TrackFactory.java:14:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/io/brunovargas/factory/TrackFactory.java:14:	headerCommentRequirement Required
+src/main/java/io/brunovargas/factory/TrackFactory.java:16:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/factory/TrackFactory.java:19:	Found 'DD'-anomaly for variable 'timespent' (lines '19'-'20').
+src/main/java/io/brunovargas/factory/TrackFactory.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/factory/TrackFactory.java:68:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/factory/TrackFactory.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/parser/TalkParser.java:16:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/io/brunovargas/parser/TalkParser.java:16:	headerCommentRequirement Required
+src/main/java/io/brunovargas/parser/TalkParser.java:18:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/parser/TalkParser.java:19:	Found 'DD'-anomaly for variable 'result' (lines '19'-'23').
+src/main/java/io/brunovargas/parser/TalkParser.java:23:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/parser/TalkParser.java:23:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/parser/TalkParser.java:23:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/parser/TalkParser.java:23:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/parser/TalkParser.java:23:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/io/brunovargas/parser/TalkParser.java:24:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/io/brunovargas/parser/TalkParser.java:26:	System.out.println is used
+src/main/java/io/brunovargas/parser/TalkParser.java:33:	Found 'DD'-anomaly for variable 'result' (lines '33'-'44').
+src/main/java/io/brunovargas/parser/TalkParser.java:36:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/io/brunovargas/parser/TalkParser.java:38:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/io/brunovargas/parser/TalkParser.java:39:	Found 'DU'-anomaly for variable 'title' (lines '39'-'50').
+src/main/java/io/brunovargas/parser/TalkParser.java:39:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/io/brunovargas/parser/TalkParser.java:40:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/io/brunovargas/parser/TalkParser.java:41:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/io/brunovargas/parser/TalkParser.java:43:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/io/brunovargas/util/TimeUtil.java:10:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/io/brunovargas/util/TimeUtil.java:10:	headerCommentRequirement Required
+src/main/java/io/brunovargas/util/TimeUtil.java:12:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/util/TimeUtil.java:20:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Event.java:9:	headerCommentRequirement Required
+src/main/java/io/brunovargas/vo/Event.java:11:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/vo/Event.java:13:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/vo/Event.java:15:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/vo/Event.java:17:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Event.java:22:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Event.java:28:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Event.java:32:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Event.java:36:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Event.java:40:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Event.java:44:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Event.java:48:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Event.java:52:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:11:	headerCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:13:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:15:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:17:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:19:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:21:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:23:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:31:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:35:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:39:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:43:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:47:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:51:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:55:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:59:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:63:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:64:	Found 'DD'-anomaly for variable 'result' (lines '64'-'66').
+src/main/java/io/brunovargas/vo/Session.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/vo/Session.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/vo/Session.java:66:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/vo/Session.java:71:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:72:	Found 'DD'-anomaly for variable 'result' (lines '72'-'77').
+src/main/java/io/brunovargas/vo/Session.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/vo/Session.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/vo/Session.java:75:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/vo/Session.java:82:	Found 'UR'-anomaly for variable 'event' (lines '82'-'85').
+src/main/java/io/brunovargas/vo/Session.java:82:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:85:	Avoid instantiating new objects inside loops
+src/main/java/io/brunovargas/vo/Session.java:92:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Session.java:93:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/vo/Session.java:93:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/vo/Session.java:93:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/vo/Session.java:96:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Track.java:9:	headerCommentRequirement Required
+src/main/java/io/brunovargas/vo/Track.java:11:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/vo/Track.java:12:	fieldCommentRequirement Required
+src/main/java/io/brunovargas/vo/Track.java:14:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Track.java:19:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Track.java:23:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Track.java:27:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Track.java:31:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Track.java:35:	publicMethodCommentRequirement Required
+src/main/java/io/brunovargas/vo/Track.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/vo/Track.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/vo/Track.java:36:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/vo/Track.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/vo/Track.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/vo/Track.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/io/brunovargas/vo/Track.java:40:	publicMethodCommentRequirement Required
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:12:	Avoid unused imports such as 'java.util.Arrays'
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:21:	Each class should declare at least one constructor
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:21:	headerCommentRequirement Required
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:23:	To avoid mistakes add a comment at the beginning of the filePath field if you want a default access modifier
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:23:	Use explicit scoping instead of the default package private level
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:23:	fieldCommentRequirement Required
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:24:	To avoid mistakes add a comment at the beginning of the tracks field if you want a default access modifier
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:24:	Use explicit scoping instead of the default package private level
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:24:	fieldCommentRequirement Required
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:27:	You may have misspelled a JUnit framework method (setUp or tearDown)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:27:	publicMethodCommentRequirement Required
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:28:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:32:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:32:	publicMethodCommentRequirement Required
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:34:	Local variable 'fileContent' could be declared final
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:39:	Potential violation of Law of Demeter (static property access)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:40:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:40:	Potential violation of Law of Demeter (static property access)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:41:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:41:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:41:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:41:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:47:	Avoid instantiating Long objects.Call Long.valueOf() instead
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:47:	Local variable 'numberOfEvents' could be declared final
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:47:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:48:	Avoid excessively long variable names like numberOfScheduledEvents
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:48:	Local variable 'numberOfScheduledEvents' could be declared final
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:48:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:48:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:48:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:48:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:48:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:48:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:48:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:48:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:48:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:48:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:50:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:50:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:50:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:50:	Potential violation of Law of Demeter (static property access)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:51:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:51:	Potential violation of Law of Demeter (static property access)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/conference/ConferenceTrackGeneratorTest.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:1:	Too many static imports may lead to messy code
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:25:	Each class should declare at least one constructor
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:25:	headerCommentRequirement Required
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:27:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:27:	fieldCommentRequirement Required
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:29:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:29:	fieldCommentRequirement Required
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:32:	You may have misspelled a JUnit framework method (setUp or tearDown)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:32:	publicMethodCommentRequirement Required
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:60:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:60:	publicMethodCommentRequirement Required
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:67:	Potential violation of Law of Demeter (static property access)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:67:	The String literal "name" appears 4 times in this file; the first occurrence is on line 67
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:68:	Potential violation of Law of Demeter (static property access)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:69:	Potential violation of Law of Demeter (static property access)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:70:	Potential violation of Law of Demeter (static property access)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:75:	Found 'UR'-anomaly for variable 'event' (lines '75'-'88').
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:75:	publicMethodCommentRequirement Required
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:76:	Avoid excessively long variable names like allScheduledEvents
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:76:	Local variable 'allScheduledEvents' could be declared final
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:77:	Potential violation of Law of Demeter (static property access)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:80:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:81:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:81:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:81:	Potential violation of Law of Demeter (static property access)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:84:	Found 'DU'-anomaly for variable 'allEvents' (lines '84'-'91').
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:84:	Local variable 'allEvents' could be declared final
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:84:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:84:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:84:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:87:	Local variable 'event' could be declared final
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:94:	Found 'UR'-anomaly for variable 'event' (lines '94'-'111').
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:94:	publicMethodCommentRequirement Required
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:95:	Avoid excessively long variable names like allScheduledEvents
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:95:	Local variable 'allScheduledEvents' could be declared final
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:95:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:96:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:96:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:96:	Potential violation of Law of Demeter (static property access)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:98:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:99:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:99:	Potential violation of Law of Demeter (static property access)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:101:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:102:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:102:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:102:	Potential violation of Law of Demeter (static property access)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:104:	Potential violation of Law of Demeter (object not created locally)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:105:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:105:	Potential violation of Law of Demeter (static property access)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:108:	Found 'DU'-anomaly for variable 'previousTimeframe' (lines '108'-'115').
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:108:	Potential violation of Law of Demeter (static property access)
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:110:	Local variable 'event' could be declared final
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:112:	Avoid instantiating new objects inside loops
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:112:	Found 'DU'-anomaly for variable 'previousTimeframe' (lines '112'-'115').
+src/test/java/io/brunovargas/factory/TrackFactoryTest.java:113:	Potential violation of Law of Demeter (method chain calls)
